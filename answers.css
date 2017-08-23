@@ -56,3 +56,28 @@ align-self: flex-end;
 /*level 17;*/
 align-self: flex-end;
 order: 2;
+
+/*level 18*/
+flex-wrap: wrap;
+
+/*level 19*/
+flex-wrap: wrap;
+flex-direction: column;
+
+/*level 20*/
+flex-flow: wrap column;
+
+/*level 21*/
+align-content: flex-start;
+
+/*level 22*/
+align-content: flex-end;
+
+/*level 23*/
+flex-direction: column-reverse;
+align-content: center;
+
+/*level 24*/
+flex-flow: column-reverse wrap-reverse;
+justify-content: center;
+align-content: space-between;

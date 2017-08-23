@@ -24,12 +24,23 @@ Answers to Flexbox Froggy (http://flexboxfroggy.com/)
 + column-reverse: Items are placed bottom to top.
 
 ### order:
-+ specifies the order of flex item, swapping it with an element at that specified position
++ specifies the order of the flex item, swapping it with an element at that specified position
 
 ### align-self:
 + Behaves the same way as align-items; overwrites align-items
 
-### flex-direction:
+### flex-wrap:
 + nowrap: Every item is fit to a single line.
 + wrap: Items wrap around to additional lines.
 + wrap-reverse: Items wrap around to additional lines in reverse.
+
+### flex-flow:
++ Combines both flex-direction and flex-wrap together
+
+### align-content:
++ flex-start: Lines are packed at the top of the container.
++ flex-end: Lines are packed at the bottom of the container.
++ center: Lines are packed at the vertical center of the container.
++ space-between: Lines display with equal spacing between them.
++ space-around: Lines display with equal spacing around them.
++ stretch: Lines are stretched to fit the container.
